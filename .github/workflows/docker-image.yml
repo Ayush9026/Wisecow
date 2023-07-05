@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build t app. --tag  Docker Image CI:$(date +%s)
+      run: docker build t app. 
        docker login -u ayushdocker9026 
        docker tag app ayushdocker9026/test
        docker push ayushdocker9026/test
