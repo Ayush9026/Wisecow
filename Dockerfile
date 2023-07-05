@@ -6,7 +6,7 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the shell script files
-COPY  "E:\wisecow-main" .
+COPY  "C:\Users\HP\Downloads\wisecow-main" .
 
 # Set execute permissions for the shell script
 RUN chmod +x script.sh
