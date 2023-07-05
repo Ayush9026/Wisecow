@@ -15,5 +15,3 @@ RUN chmod +x script.sh
 # Expose the application port
 EXPOSE 4499
 
-# Start the application
-CMD ["./script.sh"]
