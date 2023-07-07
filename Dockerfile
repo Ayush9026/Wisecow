@@ -1,4 +1,3 @@
-
 # Base image
 FROM alpine:latest
 
@@ -6,10 +5,10 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy the shell script files
-COPY  E:\wisecow-main .
+COPY  wisecow.sh .
 
 # Set execute permissions for the shell script
-RUN chmod +x E:\wisecow-main\wisecow.sh
+RUN chmod +x wisecow.sh
 
 
 # Expose the application port
