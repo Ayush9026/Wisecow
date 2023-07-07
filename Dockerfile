@@ -16,4 +16,4 @@ RUN chmod +x script.sh
 EXPOSE 4499
 
 # Start the application
-CMD ["./script.sh"]
+CMD ["./wisecow.sh"]
