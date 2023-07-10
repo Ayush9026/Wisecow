@@ -21,5 +21,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t my-dockerhub-username/my-image-name:${{ github.sha }} .
-          docker push my-dockerhub-username/my-image-name:${{ github.sha }}
+          docker build -t ayushdocker9026/wisecowimage:${{ github.sha }} .
+          docker push ayushdocker9026/wisecowimage:${{ github.sha }}
